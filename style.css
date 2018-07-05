@@ -1,0 +1,51 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  d
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background:yellow;
+  height: 200px;
+}
+
+.btn{
+  padding: 10px 50px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.play-song{
+background: rgb(30,144,255);
+color:white;
+}
+
+.play-song:hover{
+  background-color:rgba(63,63,191,0.6);
+}
+
+.keep-song{
+  background: green;
+  color:white;
+  }
+
+  .reset-radio{
+    background: red;
+    color:white;
+  }
+
+  .audio{
+    display:none;
+  }
